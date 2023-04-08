@@ -1,4 +1,4 @@
-header{
+header {
     border: 1px solid #ccc;
     background-color: #f5f5f5;
 }
@@ -16,7 +16,5 @@ header div {
     height: 80px;
 }
 
-header div > div{
-    margin-left: 50px;
-    margin-right: 50px;
+header div > div {
 }
