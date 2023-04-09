@@ -26,10 +26,34 @@
     </div>
 </header>
 
-<form style="display: flex; justify-content: center; align-items: center; margin: 30px; ">
-    <label for="search"></label><input type="text" id="search" name="search" placeholder="Search...">
-    <button type="submit" style="margin: 10px;">Search</button>
-</form>
+<div class="search-bar" style="margin-top:50px; margin-left:100px">
+    <div class="search-category">
+        <div class="category-dropdown">
+            <label for="category-name">Select a category:</label>
+            <select name="category-name" id="category-name">
+                <option value="none">Selecteaza</option>
+                <option value="apartamente">Apartamente</option>
+                <option value="magazine">Magazine</option>
+            </select>
+        </div>
+
+        <div class="select-category">
+            <label>Selected Categories:</label>
+            <div class="selected-categories-buttons">
+                <button>Apartamente-</button>
+                <button>Magazine-</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="search-products">
+        <form>
+            <label for="search-product"></label><input type="text" id="search-product" name="search"
+                                                       placeholder="cautare produs...">
+            <button type="submit" style="margin: 10px;">Search</button>
+        </form>
+    </div>
+</div>
 
 <div class="product-container">
     <div class="product-item">
