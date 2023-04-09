@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/category-selector.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/global.css">
+    <title>Administrare clasa</title>
+</head>
+<body>
+
+<header>
+    <div>
+        <div>
+            <span>Home</span>
+            <span>About</span>
+            <span>Contact</span>
+        </div>
+        <div>
+            <span>Manage account</span>
+            <span>Login</span>
+        </div>
+    </div>
+</header>
+
+<h1 style="text-align: center">Administrare produs: Apartament 2 camere Podul Ros</h1>
+
+<div class="edit-product-container">
+    <form style="display: flex; justify-content: flex-start; align-items: center; margin-left: 50px ">
+        <label for="product-name" style="margin-right: 10px">Nume Produs</label>
+        <input type="text" id="product-name" name="product-name" placeholder="Nume produs">
+        <button type="submit" style="margin: 10px;">Update</button>
+    </form>
+
+    <div class="search-bar">
+        <div class="search-category">
+            <div class="category-dropdown">
+                <label for="category-name">Select a category:</label>
+                <select name="category-name" id="category-name">
+                    <option value="none">Selecteaza</option>
+                    <option value="apartamente">Apartamente</option>
+                    <option value="magazine">Magazine</option>
+                </select>
+            </div>
+
+            <div class="select-category">
+                <label>Selected Categories:</label>
+                <div class="selected-categories-buttons">
+                    <button>Apartamente-</button>
+                    <button>Magazine-</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form style="display: flex; justify-content: flex-start; align-items: center; margin-left: 50px ">
+        <label for="product-context" style="margin-right: 10px">Context de utilizare</label>
+        <input type="text" id="product-context" name="product-context" placeholder="Apartament de vanzare">
+        <button type="submit" style="margin: 10px;">Update</button>
+    </form>
+
+
+    <form style="display: flex; justify-content: flex-start; align-items: center; margin-left: 50px ">
+        <label for="product-price" style="margin-right: 10px">Pret produs</label>
+        <input type="text" id="product-price" name="product-price" placeholder="90.000 euro">
+        <button type="submit" style="margin: 10px;">Update</button>
+    </form>
+
+    <form style="display: flex; justify-content: flex-start; align-items: center; margin-left: 50px ">
+        <label for="product-image" style="margin-right: 10px">Imagine produs</label>
+        <input type="file" id="product-image" name="product-image">
+        <button type="submit" style="margin: 10px;">Update</button>
+    </form>
+</div>
+
+
+<footer>
+    <div class="footer-container">
+        <section>
+            <h3>Subscribe to our newsletter</h3>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <section>
+            <h3>Follow us</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/example">Facebook</a></li>
+                <li><a href="https://www.twitter.com/example">Twitter</a></li>
+                <li><a href="https://www.instagram.com/example">Instagram</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/documentation">Documentation</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </section>
+    </div>
+</footer>
+
+</body>
+</html>
