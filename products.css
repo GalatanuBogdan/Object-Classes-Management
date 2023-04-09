@@ -10,7 +10,6 @@
     justify-content: center;
     align-items: center;
 
-    height: 500px;
     width: 400px;
     margin: 50px;
 
@@ -20,7 +19,27 @@
 
 .product-item .product-image {
     height: 400px;
-    width: 400px;
+    width: 100%;
+}
+
+.product-item .product-details .product-controls{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.product-item .product-details .product-controls button{
+    width: 50%;
+    height: 40px;
+    border-style: solid;
+}
+
+.product-item .product-details .product-controls .remove-product-btn:hover{
+    background-color: #db0000;
+}
+
+.product-item .product-details .product-controls .edit-product-btn:hover{
+    background-color: dodgerblue;
 }
 
 .product-item .product-details {
@@ -28,4 +47,66 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: 100%;
 }
+
+.management-container{
+    display: flex;
+    justify-content: center;
+}
+
+.management-container div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.create-item{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid #ccc;
+}
+
+.create-item *{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.create-item form input{
+    margin-bottom: 10px;
+}
+
+.manage-categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+.manage-categories .search-category{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid gray;
+}
+
+.manage-categories .search-category .search-input{
+    display: flex;
+    align-items: center;
+}
+
+.manage-categories .search-category .search-result{
+    display: flex;
+}
+
+.manage-categories .search-category .search-result button{
+    margin-left:5px;
+    margin-right: 5px;
+}
+
+.manage-categories .add-category{
+}
+
+

@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="products.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="global.css">
-    <title>Home</title>
+    <title>Title</title>
 </head>
 <body>
 
@@ -25,8 +24,10 @@
     </div>
 </header>
 
+<h1 style="text-align: center">Pagina de administrator</h1>
+
 <form style="display: flex; justify-content: center; align-items: center; margin: 30px; ">
-    <label for="search"></label><input type="text" id="search" name="search" placeholder="Search...">
+    <label for="search"></label><input type="text" id="search" name="search" placeholder="clasa de obiecte...">
     <button type="submit" style="margin: 10px;">Search</button>
 </form>
 
@@ -36,6 +37,10 @@
         <div class="product-details">
             <p class="product-title">Fidelia Casa</p>
             <p class="product-category">Categorie: Agentii imobiliare</p>
+            <div class="product-controls">
+                <button class="edit-product-btn">Edit</button>
+                <button class="remove-product-btn">Remove</button>
+            </div>
         </div>
     </div>
 
@@ -44,6 +49,10 @@
         <div class="product-details">
             <p class="product-title">Imobiliare.ro</p>
             <p class="product-category">Categorie: Agentii imobiliare</p>
+            <div class="product-controls">
+                <button class="edit-product-btn">Edit</button>
+                <button class="remove-product-btn">Remove</button>
+            </div>
         </div>
     </div>
 
@@ -52,34 +61,51 @@
         <div class="product-details">
             <p class="product-title">Mamma Mia</p>
             <p class="product-category">Categorie: Magazine</p>
-        </div>
-    </div>
-
-    <div class="product-item">
-        <img src="images/fideliaCasa.png" class="product-image" alt="">
-        <div class="product-details">
-            <p class="product-title">Fidelia Casa</p>
-            <p class="product-category">Categorie: Agentii imobiliare</p>
-        </div>
-    </div>
-
-    <div class="product-item">
-        <img src="images/imobiliare.png" class="product-image" alt="">
-        <div class="product-details">
-            <p class="product-title">Imobiliare.ro</p>
-            <p class="product-category">Categorie: Agentii imobiliare</p>
-        </div>
-    </div>
-
-    <div class="product-item">
-        <img src="images/mammaMia.png" class="product-image" alt="">
-        <div class="product-details">
-            <p class="product-title">Mamma Mia</p>
-            <p class="product-category">Categorie: Magazine</p>
+            <div class="product-controls">
+                <button class="edit-product-btn">Edit</button>
+                <button class="remove-product-btn">Remove</button>
+            </div>
         </div>
     </div>
 </div>
 
+
+<div class="management-container">
+    <div class="create-item">
+        <h4> Adauga clasa de obiecte:</h4>
+        <form>
+            <label for="title">Titlu:</label>
+            <input type="text" id="title" name="title"><br><br>
+
+            <label for="category">Categorie:</label>
+            <input type="text" id="category" name="category"><br><br>
+
+            <input type="submit" value="Adauga">
+        </form>
+    </div>
+
+    <div class="manage-categories">
+        <div class="search-category">
+            <div class="search-input">
+                <label>
+                    <input type="text" placeholder="Cauta o categorie..">
+                </label>
+                <button>Cauta</button>
+            </div>
+            <div class="search-result">
+                <button>Apartmente-</button>
+                <button>Magazine-</button>
+            </div>
+        </div>
+        <div class="add-category">
+            <label for="title">Adauga categorie noua:</label>
+            <label>
+                <input type="text" placeholder="Nume categorie..">
+            </label>
+            <button>Adauga</button>
+        </div>
+    </div>
+</div>
 
 <footer>
     <div class="footer-container">
@@ -111,7 +137,6 @@
         </section>
     </div>
 </footer>
-
 
 </body>
 </html>
