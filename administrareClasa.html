@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/category-selector.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/global.css">
+    <title>Administrare clasa</title>
+</head>
+<body>
+
+<header>
+    <div>
+        <div>
+            <span>Home</span>
+            <span>About</span>
+            <span>Contact</span>
+        </div>
+        <div>
+            <span>Manage account</span>
+            <span>Login</span>
+        </div>
+    </div>
+</header>
+
+<h1 style="text-align: center">Administrare clasa: FideliaCasa</h1>
+
+<form style="display: flex; justify-content: flex-start; align-items: center; margin: 50px; ">
+    <label for="object-class-name" style="margin-right: 10px">Nume clasa de obiecte</label>
+    <input type="text" id="object-class-name" name="object-class-name" placeholder="Fidelia Casa">
+    <button type="submit" style="margin: 10px;">Update</button>
+</form>
+
+<div class="search-bar">
+    <div class="search-category">
+        <div class="category-dropdown">
+            <label for="category-name">Select a category:</label>
+            <select name="category-name" id="category-name">
+                <option value="none">Selecteaza</option>
+                <option value="apartamente">Apartamente</option>
+                <option value="magazine">Magazine</option>
+            </select>
+        </div>
+
+        <div class="select-category">
+            <label>Selected Categories:</label>
+            <div class="selected-categories-buttons">
+                <button>Apartamente-</button>
+                <button>Magazine-</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="search-products">
+        <form>
+            <label for="search-product"></label><input type="text" id="search-product" name="search"
+                                                       placeholder="cautare produs...">
+            <button type="submit" style="margin: 10px;">Search</button>
+        </form>
+    </div>
+</div>
+
+
+<div class="product-container">
+    <div class="product-item">
+        <img src="images/fideliaCasa.png" class="product-image" alt="">
+        <div class="product-details">
+            <p class="product-title">Apartament 2 camere Podul ros</p>
+            <p class="product-category">Categoria: apartamente</p>
+            <div class="product-controls">
+                <button class="edit-product-btn">Edit</button>
+                <button class="remove-product-btn">Remove</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-item">
+        <img src="images/fideliaCasa.png" class="product-image" alt="">
+        <div class="product-details">
+            <p class="product-title">Apartament 3 camere Podul ros</p>
+            <p class="product-category">Categoria: apartamente</p>
+            <div class="product-controls">
+                <button class="edit-product-btn">Edit</button>
+                <button class="remove-product-btn">Remove</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-item">
+        <img src="images/fideliaCasa.png" class="product-image" alt="">
+        <div class="product-details">
+            <p class="product-title">Apartament 4 camere Podul ros</p>
+            <p class="product-category">Categoria: apartamente</p>
+            <div class="product-controls">
+                <button class="edit-product-btn">Edit</button>
+                <button class="remove-product-btn">Remove</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="management-container">
+    <div class="create-item">
+        <h4> Adaugare produs:</h4>
+        <form>
+            <label for="title">Titlu:</label>
+            <input type="text" id="title" name="title"><br><br>
+
+            <label for="category">Categorie:</label>
+            <input type="text" id="category" name="category"><br><br>
+
+            <label for="context-utilization">Context Utilizare:</label>
+            <input type="text" id="context-utilization" name="category"><br><br>
+
+            <label for="price">Categorie:</label>
+            <input type="text" id="price" name="pret"><br><br>
+
+            <label for="adaugare-imagine">Adaugare imagine:</label>
+            <input type="file" id="adaugare-imagine" name="adaugare-imagine" alt=""><br><br>
+
+            <input type="submit" value="Adauga produs">
+        </form>
+    </div>
+</div>
+
+
+<footer>
+    <div class="footer-container">
+        <section>
+            <h3>Subscribe to our newsletter</h3>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <section>
+            <h3>Follow us</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/example">Facebook</a></li>
+                <li><a href="https://www.twitter.com/example">Twitter</a></li>
+                <li><a href="https://www.instagram.com/example">Instagram</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/documentation">Documentation</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </section>
+    </div>
+</footer>
+
+</body>
+</html>
