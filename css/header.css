@@ -18,3 +18,18 @@ header div {
 
 header div > div {
 }
+
+header div div span a
+{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 550px) {
+    header div > div > span {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-weight: bold;
+    }
+}
+
