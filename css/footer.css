@@ -15,6 +15,9 @@ footer {
     flex-wrap: wrap;
     max-width: 960px;
     width: 100%;
+    position: relative;
+    padding: 10px 10px 0 10px;
+    bottom: 0;
 }
 
 section .footer-container {
