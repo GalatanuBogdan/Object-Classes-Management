@@ -53,11 +53,20 @@
 .management-container{
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
 
+@media screen and (max-width: 680px) {
+    .management-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+
 .management-container div{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin:10px;
 }
 
 .create-item{
