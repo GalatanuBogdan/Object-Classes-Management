@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins';
+}
+
 header {
     border: 1px solid #ccc;
-    background-color: #f5f5f5;
+    background-color: #d5b09c;
 }
 
 header div > div > span {
@@ -14,6 +20,7 @@ header div {
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    color: #204045;
 }
 
 header div > div {
