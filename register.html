@@ -23,31 +23,35 @@
     </div>
 </header>
 
-<form action="register.html" id="Register" method="post">
-    <div class="register-container" style="display:flex; flex-direction: column; text-align: center; border:1px solid #ccc; background-color:#f5f5f5; width:100%">
-            <div class="register-fields" style="display:flex; flex-direction: column; justify-content: center; align-items: center; margin: 20px;">
-                <h3 class="register-title">Registration Form</h3>
-                <label for="first-name"><b>First name</b></label>
-                <input id="first-name" name="first-name" placeholder="Enter first name" required type="text">
-                <label for="last-name"><b>Last name</b></label>
-                <input id="last-name"  name="last-name" placeholder="Enter last name" required type="text">
-                <label for="register-email"><b>Email</b></label>
-                <input id="register-email" name="register-email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter E-mail" required
-                       type="email">
-                <label for="password"><b>Password</b></label>
-                <input id="password" name="password" autocomplete="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                       placeholder="Enter Password"
-                       required
-                       title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
-                       type="password">
-            </div>
-            <button id="register-button" type="button" style="display:flex; flex-direction: column; justify-content: center; align-items: center; margin: 0 auto 20px;width: fit-content" >REGISTER</button>
+<!--missing searchBar-->
 
-            <div id="registerFormErrorList">
+<div class="wrapper" style="min-height: 80vh;">
+    <form action="register.html" id="Register" method="post">
+        <div class="register-container" style="display:flex; flex-direction: column; text-align: center; border:1px solid #ccc; background-color:#f5f5f5; width:100%">
+                <div class="register-fields" style="display:flex; flex-direction: column; justify-content: center; align-items: center; margin: 20px;">
+                    <h3 class="register-title">Registration Form</h3>
+                    <label for="first-name"><b>First name</b></label>
+                    <input id="first-name" name="first-name" placeholder="Enter first name" required type="text">
+                    <label for="last-name"><b>Last name</b></label>
+                    <input id="last-name"  name="last-name" placeholder="Enter last name" required type="text">
+                    <label for="register-email"><b>Email</b></label>
+                    <input id="register-email" name="register-email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter E-mail" required
+                           type="email">
+                    <label for="password"><b>Password</b></label>
+                    <input id="password" name="password" autocomplete="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                           placeholder="Enter Password"
+                           required
+                           title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
+                           type="password">
+                </div>
+                <button id="register-button" type="button" style="display:flex; flex-direction: column; justify-content: center; align-items: center; margin: 0 auto 20px;width: fit-content" >REGISTER</button>
 
+                <div id="registerFormErrorList">
+
+                </div>
             </div>
-        </div>
-</form>
+    </form>
+</div>
 
 <footer>
     <div class="footer-container">

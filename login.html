@@ -26,23 +26,25 @@
 
 <!--missing searchBar-->
 
-<form action="login.html" id="Login" method="post">
-  <div class="login-container" style="display:flex; flex-direction: column; text-align: center; border:1px solid #ccc; background-color:#f5f5f5; width:100%">
-    <div class="login-fields" style="display:flex; flex-direction: column; justify-content: center; align-items: center; margin: 20px;">
-      <h3 class="login-title">Login</h3>
-      <label for="login-email"><b>Email</b></label>
-      <input id="login-email" name="login-email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter E-mail" required
-             type="email">
-      <label for="password"><b>Password</b></label>
-      <input id="password" name="password" autocomplete="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-             placeholder="Enter Password"
-             required
-             title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
-             type="password">
-    </div>
-    <button id="login-button" type="button" style="display:flex; flex-direction: column; justify-content: center; align-items: center; margin: 0 auto 20px;width: fit-content" >LOGIN</button>
-    </div>
-</form>
+<div class="wrapper" style="min-height: 80vh;">
+  <form action="login.html" id="Login" method="post">
+    <div class="login-container" style="display:flex; flex-direction: column; text-align: center; border:1px solid #ccc; background-color:#f5f5f5; width:100%">
+      <div class="login-fields" style="display:flex; flex-direction: column; justify-content: center; align-items: center; margin: 20px;">
+        <h3 class="login-title">Login</h3>
+        <label for="login-email"><b>Email</b></label>
+        <input id="login-email" name="login-email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter E-mail" required
+               type="email">
+        <label for="password"><b>Password</b></label>
+        <input id="password" name="password" autocomplete="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+               placeholder="Enter Password"
+               required
+               title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
+               type="password">
+      </div>
+      <button id="login-button" type="button" style="display:flex; flex-direction: column; justify-content: center; align-items: center; margin: 0 auto 20px;width: fit-content" >LOGIN</button>
+      </div>
+  </form>
+</div>
 
 <footer>
   <div class="footer-container">
