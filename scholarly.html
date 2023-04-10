@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Galatanu Bogdan, Macsim Oana">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentatie IDis</title>
+</head>
+
+<body>
+
+<header>
+    <h1 class="title">Documentatie IDis</h1>
+</header>
+
+<div role="contentinfo" style="font-size:1vw">
+    <section>
+        <h2>Autori</h2>
+        <ul>
+            <li> Galatanu Bogdan: galatanu.bogdan14@gmail.com</li>
+        </ul>
+        <ul>
+            <li> Macsim Oana: oanamacsim110@gmail.com</li>
+        </ul>
+    </section>
+
+    <nav role="navigation" aria-label="Table of Contents">
+        <h1>Cuprins:</h1>
+        <ol>
+            <li>
+                <a href="#descrierea-proiectului">Descrierea proiectului:</a>
+            </li>
+            <li>
+                <a href="#frond-end">Front-End</a>
+                <ol>
+                    <li><a href="#tehnologii-si-framework-uri-utilizate">Tehnologii si framework-uri utilizare</a></li>
+                    <li><a href="#structura-interfetei-de-utilizator">Structura interfetei de utilizator</a></li>
+                    <li><a href="#structura-interfetei-de-utilizator">Home</a></li>
+                    <li><a href="#structura-interfetei-de-utilizator">Vizualizare produs</a></li>
+                    <li><a href="#structura-interfetei-de-utilizator">AdministareClaseDeObiecte</a></li>
+                    <li><a href="#structura-interfetei-de-utilizator">AdministareClasaDeObiecte</a></li>
+                    <li><a href="#structura-interfetei-de-utilizator">AdministareProdus</a></li>
+                    <li><a href="#structura-interfetei-de-utilizator">Login</a></li>
+                    <li><a href="#structura-interfetei-de-utilizator">Register</a></li>
+                </ol>
+            </li>
+            <li>
+                <a href="#back-end">Back-End</a>
+            </li>
+            <li>
+                <a href="#etape-dezvoltare">Etape de dezvoltare</a>
+                <ol>
+                    <li><a href="#etape-dezvoltare-UI">UI</a></li>
+                    <li><a href="#etape-dezvoltare-front-end">Front-End</a></li>
+                </ol>
+            </li>
+
+            <li>
+                <a href="#surse-de-informatii">Surse de informatii</a>
+                <ol>
+                </ol>
+            </li>
+        </ol>
+    </nav>
+
+
+    <section id="descrierea-proiectului">
+        <h2> 1. Descrierea generala a proiectului </h2>
+        <p>
+            Aplicația web pe care o vom crea va fi o platformă de gestionare a obiectelor și artefactelor digitale,
+            care să permită utilizatorilor să adauge, să gestioneze și să organizeze aceste entități într-un mod
+            eficient și intuitiv.
+            Scopul acestei aplicații este de a ajuta utilizatorii să aibă o viziune clară asupra obiectelor și
+            artefactelor digitale pe care le gestionează,
+            oferindu-le posibilitatea de a vedea, de exemplu, ce produse sunt cele mai populare sau care sunt cele mai
+            apreciate jocuri electronice,
+            precum și de a avea acces rapid și ușor la informațiile despre acestea.
+        </p>
+        <p>
+            Această aplicație web ar putea fi destinată unor companii care doresc să își gestioneze și să își urmărească
+            stocul de produse,
+            sau chiar unor persoane care doresc să urmărească și să gestioneze colecțiile lor de obiecte sau artefacte
+            digitale.
+            De asemenea, aplicația ar putea fi folosită în cadrul unor organizații educaționale pentru a gestiona și
+            urmări prelegerile profesorilor sau proiectele realizate de studenți.
+            În plus, sistemul de clasament al entităților preferate/dezirabile ar putea fi util pentru o gamă largă de
+            utilizatori,
+            de la persoane fizice care doresc să urmărească preferințele lor personale, până la companii care doresc să
+            urmărească preferințele clienților lor.
+        </p>
+    </section>
+
+    <section id="frond-end">
+        <h2> 2. Front-End </h2>
+
+        <section id="tehnologii-si-framework-uri-utilizate">
+            <h3>
+                2.1. Tehnologii si framework-uri utlilizate
+            </h3>
+            <p>
+                Pentru realizarea interfetei grafice s-au folosit framework-urile HTML5 si CSS3.
+            </p>
+        </section>
+
+        <section id="structura-interfetei-de-utilizator">
+            <h3>
+                2.2. Structura interfetei de utilizator
+            </h3>
+
+            <ul>
+                <li>Pagina principala</li>
+                <p>
+                    Sunt afisate o serie de clase de obiecte ce pot fi filtrate in functie de nume sau de categoria
+                    acestora.
+                    Cand utilizatorul apasa pe o anumita clasa de obiecte, va avea aces la toate produsele din acea
+                    clasa de obiecte
+                </p>
+
+                <li>Pagina de vizualizare a unei clase de obiecte</li>
+                <p>
+                    Sunt afisate o serie de produse care fac parte dintr-o anumita clasa de obiecte.
+                    Acestea pot fi filtrate dupa nume si categorie
+                    Cand utilizatorul apasa pe o anumita clasa de obiecte, va avea aces la toate produsele din acea
+                    clasa de obiecte
+                </p>
+
+                <li>Pagina de vizualizare a unui produs</li>
+                <p>
+                    Sunt afisate caracteristicile unui produs.
+                    Pe aceasta pagina utilizatorul ar trebui sa poata adauga o caracteristica dezirabila sau
+                    indezirabila unui produs
+                </p>
+
+                <li>Pagina administrare a claselor de obiecte</li>
+                <p>
+                    Disponibila doar pentru administratorul ce detine clasele respective de obiecte
+                    Pe aceasta pagina administratorul poate naviga prin toate clasele sale de obiecte, adauga, edita sau
+                    sterge o clasa de obiecte.
+                    Exista un filtru pentru a usura cautarea unei anumite clase de obiecte.
+                    Administratorul poate crea sau sterge categorii pe care ulterior sa le asigneze in cadrul
+                    produselor.
+                </p>
+
+
+                <li>Pagina administrare a unei clase de obiecte</li>
+                <p>
+                    Disponibila doar pentru administratorul ce detine clasa respectiva de obiecte
+                    Pe aceasta pagina administratorul poate naviga prin toate produsele din cadrul unei clase de
+                    obiecte, adauga, edita sau sterge un produs.
+                    Exista un filtru pentru a usura cautarea unui anumit produs.
+                </p>
+
+
+                <li>Pagina administrare a unui produs</li>
+                <p>
+                    Disponibila doar pentru administratorul ce detine acel produs.
+                    Pe aceasta pagina administratorul poate edita sau sterge un produs.
+                </p>
+
+
+                <li>Pagina de login</li>
+                <p>
+                    Disponibila doar pentru utilizatorii nelogati.
+                    Se ocupa de partea de autentificare a utilizatorilor.
+                </p>
+
+
+                <li>Pagina de register</li>
+                <p>
+                    Disponibila doar pentru utilizatorii nelogati.
+                    Se ocupa de partea de inregistrare a utilizatorilor.
+                </p>
+            </ul>
+        </section>
+
+    </section>
+
+    <section id="back-end">
+        <h2> 3. Back-End </h2>
+        <p> Back-endul proiectul va fi realizat folosind PHP. </p>
+    </section>
+
+    <section id="etape-dezvoltare">
+        <h2> 4. Etape de dezvoltare </h2>
+        <section id="etape-dezvoltare-UI">
+            <h5> Am realizat in prima faza o macheta a website-ului numita "macheta.png" pentru a avea un model dupa
+                care sa ghidam la crearea front-end-ului.</h5>
+        </section>
+
+        <section id="etape-dezvoltare-front-end">
+            <h5> Folosind macheta, am incercat pe cat posibil sa reproducem ceea ce ne-am dorit si pe paginile
+                web. </h5>
+        </section>
+    </section>
+
+    <section id="surse-de-informatii">
+        <h2> 5. Surse de informatii: </h2>
+        <ul>
+            <li><a href="https://www.fideliacasa.ro/"> FideliaCasa </a></li>
+            <li><a href="https://www.imobiliare.ro/"> Imobiliare.ro </a></li>
+            <li><a href="https://www.mammamia.ro/"> Mamma Mia </a></li>
+        </ul>
+    </section>
+</div>
+</body>
+
+</html>
