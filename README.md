@@ -34,4 +34,4 @@
 2. https://github.com/oanamacsim
 
 #### License
-This project is licensed under the [MIT License]
+This project is licensed under the [MIT License](LICENSE)
