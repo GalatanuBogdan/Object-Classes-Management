@@ -10,12 +10,14 @@
 - **Public Viewing:** Unconnected users can only view object classes and products without editing rights.
 
 #### Screenshots
-![Screenshot 1](link_to_screenshot_1.png)
-![Screenshot 2](link_to_screenshot_2.png)
-![Screenshot 3](link_to_screenshot_3.png)
+![Screenshot 1](https://github.com/GalatanuBogdan/TehnologiiWeb/blob/main/images/Screenshot%202023-07-27%20at%2019.48.28.png)
+![Screenshot 2](https://github.com/GalatanuBogdan/TehnologiiWeb/blob/main/images/Screenshot%202023-07-27%20at%2019.49.33.png)
+![Screenshot 3](https://github.com/GalatanuBogdan/TehnologiiWeb/blob/main/images/Screenshot%202023-07-27%20at%2019.49.44.png)
+![Screenshot 3](https://github.com/GalatanuBogdan/TehnologiiWeb/blob/main/images/Screenshot%202023-07-27%20at%2019.50.11.png)
+![Screenshot 3](https://github.com/GalatanuBogdan/TehnologiiWeb/blob/main/images/Screenshot%202023-07-27%20at%2019.49.03.png)
 
 #### Installation Requirements
-1. Make sure you have PHP (version X.X or later) and a web server (e.g., Apache) installed.
+1. Make sure you have PHP (version 8.2.4 or later) and a web server (e.g., Apache) installed.
 2. Download the project files from [https://github.com/GalatanuBogdan/TehnologiiWeb/].
 3. Upload the project files to your web server.
 
