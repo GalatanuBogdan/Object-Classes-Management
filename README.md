@@ -18,7 +18,7 @@
 
 #### Installation Requirements
 1. Make sure you have PHP (version 8.2.4 or later) and a web server (e.g., Apache) installed.
-2. Download the project files from [https://github.com/GalatanuBogdan/TehnologiiWeb/].
+2. Download the project files from https://github.com/GalatanuBogdan/TehnologiiWeb/
 3. Upload the project files to your web server.
 
 #### Configuration
@@ -29,6 +29,9 @@
 2. Login using your credentials to manage object classes and their products.
 3. If you're an unconnected user, you can still browse and view existing object classes and products without editing capabilities.
 
+#### Contributors
+1. https://github.com/GalatanuBogdan
+2. https://github.com/oanamacsim
 
 #### License
 This project is licensed under the [MIT License]
